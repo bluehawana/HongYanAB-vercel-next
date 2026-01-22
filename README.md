@@ -1,94 +1,110 @@
-# Hong Yan AB Website
+# Hong Yan AB - IT Solutions & Full-Stack Development
 
-A modern, responsive website for Hong Yan AB built with Next.js 16, TypeScript, and Tailwind CSS.
+🌐 **[hongyanab.com](https://hongyanab.com)**
+
+A modern, professional company website for Hong Yan AB - a Swedish IT consulting company specializing in full-stack development, cloud architecture, and enterprise solutions based in Gothenburg, Sweden.
+
+## About Hong Yan AB
+
+Hong Yan AB is founded by Hongzhi (Harvad) Li, a seasoned Full-Stack Developer with over 5 years of professional experience. We provide:
+
+- **Full-Stack Development** - Java Spring Boot, React, Next.js, TypeScript
+- **Cloud Architecture** - AWS, Docker, Kubernetes, CI/CD
+- **Enterprise Consulting** - Technical strategy, architecture design, code review
+- **Database Solutions** - PostgreSQL, MongoDB, RESTful APIs, Microservices
+
+## Tech Stack
+
+- **Framework:** Next.js 16 with App Router
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS
+- **Deployment:** Vercel
+- **Region:** Sweden (arn1)
 
 ## Features
 
-- ✨ Modern, responsive design
-- 🚀 Built with Next.js 16 App Router
+- 🎯 Modern, responsive design
+- 🚀 Server-side rendering with Next.js
 - 📱 Mobile-first approach
-- 🎨 Tailwind CSS for styling
-- 📝 TypeScript for type safety
-- 🔧 Easy to customize
+- ⚡ Optimized for performance
+- 🔒 Security headers configured
+- 🌍 SEO optimized with Open Graph
 
 ## Getting Started
 
 ### Prerequisites
 
-- Node.js 18+ installed
-- npm or yarn package manager
+- Node.js 18+
+- npm or yarn
 
 ### Installation
 
-1. Clone the repository:
 ```bash
-git clone [repository-url]
+# Clone the repository
+git clone https://github.com/bluehawana/HongYanAB-vercel-next.git
 cd HongYanAB-vercel-next
-```
 
-2. Install dependencies:
-```bash
+# Install dependencies
 npm install
-```
 
-3. Run the development server:
-```bash
+# Run development server
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to view the site.
 
-## Available Scripts
+## Scripts
 
-- `npm run dev` - Start the development server
-- `npm run build` - Build the production application
-- `npm run start` - Start the production server
-- `npm run lint` - Run ESLint
+| Command | Description |
+|---------|-------------|
+| `npm run dev` | Start development server |
+| `npm run build` | Build for production |
+| `npm run start` | Start production server |
+| `npm run lint` | Run ESLint |
 
 ## Project Structure
 
 ```
-hongyanab/HongYanAB-vercel-next/
-├── app/                  # Next.js app directory
-│   ├── layout.tsx       # Root layout
-│   ├── page.tsx         # Home page
-│   └── globals.css      # Global styles
-├── components/          # React components
-│   ├── Header.tsx       # Navigation header
-│   ├── Hero.tsx         # Hero section
-│   ├── Services.tsx     # Services section
-│   ├── About.tsx        # About section
-│   ├── Contact.tsx      # Contact form
-│   └── Footer.tsx       # Footer component
-├── public/              # Static assets
-├── tailwind.config.ts   # Tailwind configuration
-├── next.config.ts       # Next.js configuration
-└── package.json         # Dependencies
+├── app/
+│   ├── layout.tsx      # Root layout with metadata
+│   ├── page.tsx        # Home page
+│   └── globals.css     # Global styles
+├── components/
+│   ├── Header.tsx      # Navigation header
+│   ├── Hero.tsx        # Hero section
+│   ├── Services.tsx    # Services showcase
+│   ├── About.tsx       # About section
+│   ├── Contact.tsx     # Contact form
+│   └── Footer.tsx      # Footer
+├── vercel.json         # Vercel configuration
+├── tailwind.config.ts  # Tailwind configuration
+└── next.config.ts      # Next.js configuration
 ```
 
 ## Deployment
 
-### Deploy on Vercel
+### Deploy to Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new).
+1. Push code to GitHub
+2. Connect repository to Vercel
+3. Configure domain: `hongyanab.com`
+4. Deploy automatically
 
-1. Push your code to a GitHub repository
-2. Import your repository on Vercel
-3. Vercel will automatically detect Next.js and configure the build settings
-4. Click "Deploy"
+### Manual Deployment
 
-## Customization
+```bash
+npm run build
+vercel --prod
+```
 
-### Colors
+## Contact
 
-The primary colors are configured in `tailwind.config.ts`:
-- Primary (Red): `#dc2626`
-- Secondary (Dark Blue): `#1e293b`
-
-### Content
-
-Update the content in the component files located in the `components/` directory.
+- **Email:** [lee@bluehawana.com](mailto:lee@bluehawana.com)
+- **Phone:** +46 72 838 42 99
+- **Location:** Gothenburg, Sweden
+- **LinkedIn:** [linkedin.com/in/hzl](https://www.linkedin.com/in/hzl)
+- **GitHub:** [github.com/bluehawana](https://github.com/bluehawana)
 
 ## License
 
-© 2025 Hong Yan AB. All rights reserved.
+© 2026 Hong Yan AB. All rights reserved.
