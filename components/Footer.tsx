@@ -21,29 +21,29 @@ export default function Footer() {
             <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
             <ul className="space-y-2">
               <li>
-                <Link href="#services" className="text-gray-300 hover:text-white transition">
+                <Link href="/#services" className="text-gray-300 hover:text-white transition">
                   Services
                 </Link>
               </li>
               <li>
-                <Link href="#about" className="text-gray-300 hover:text-white transition">
+                <Link href="/portfolio" className="text-gray-300 hover:text-white transition">
+                  Portfolio
+                </Link>
+              </li>
+              <li>
+                <Link href="/blog" className="text-gray-300 hover:text-white transition">
+                  Blog
+                </Link>
+              </li>
+              <li>
+                <Link href="/#about" className="text-gray-300 hover:text-white transition">
                   About Us
                 </Link>
               </li>
               <li>
-                <Link href="#contact" className="text-gray-300 hover:text-white transition">
+                <Link href="/#contact" className="text-gray-300 hover:text-white transition">
                   Contact
                 </Link>
-              </li>
-              <li>
-                <a
-                  href="https://bluehawana.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-gray-300 hover:text-white transition"
-                >
-                  Blog
-                </a>
               </li>
             </ul>
           </div>
