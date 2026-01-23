@@ -54,31 +54,38 @@ export default function Services() {
             Delivering enterprise-grade solutions with over 5 years of professional experience in full-stack development, cloud architecture, and high-performance computing.
           </p>
         </div>
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+        <div className="space-y-8">
           {services.map((service, index) => (
             <div
               key={index}
-              className="bg-white hover:shadow-xl transition-all duration-300 group overflow-hidden rounded-lg"
+              className={`bg-white rounded-xl shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden flex flex-col ${
+                index % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'
+              }`}
             >
-              <div className="h-48 relative overflow-hidden">
+              {/* Image - Portrait friendly */}
+              <div className="relative w-full md:w-1/3 h-64 md:h-auto md:min-h-[300px]">
                 <Image
                   src={service.image}
                   alt={service.title}
                   fill
-                  className="object-cover group-hover:scale-105 transition-transform duration-500"
+                  className="object-cover"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
               </div>
-              <div className="p-6">
-                <h3 className="text-xl font-semibold mb-3 text-secondary">
+
+              {/* Content */}
+              <div className="flex-1 p-8 flex flex-col justify-center">
+                <h3 className="text-2xl font-semibold mb-4 text-secondary">
                   {service.title}
                 </h3>
-                <p className="text-gray-600 mb-4 leading-relaxed font-light text-sm">{service.description}</p>
+                <p className="text-gray-600 mb-6 leading-relaxed">
+                  {service.description}
+                </p>
                 <div className="flex flex-wrap gap-2">
                   {service.technologies.map((tech, idx) => (
                     <span
                       key={idx}
-                      className="text-xs bg-gray-100 text-gray-700 px-3 py-1 font-medium rounded"
+                      className="text-sm bg-gray-100 text-gray-700 px-4 py-2 rounded-full font-medium"
                     >
                       {tech}
                     </span>
