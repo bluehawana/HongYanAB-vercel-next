@@ -65,7 +65,7 @@ export default function Footer() {
             </p>
             <div className="flex items-center gap-6">
               <a
-                href="https://www.linkedin.com/in/hzl"
+                href="https://www.linkedin.com/company/71856746"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-300 hover:text-white transition"
@@ -98,7 +98,7 @@ export default function Footer() {
                 </svg>
               </a>
               <a
-                href="mailto:lee@bluehawana.com"
+                href="mailto:info@hongyanab.com"
                 className="text-gray-300 hover:text-white transition"
                 aria-label="Email"
               >

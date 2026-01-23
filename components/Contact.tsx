@@ -56,8 +56,8 @@ export default function Contact() {
                 </div>
                 <div>
                   <p className="font-semibold text-secondary">Email</p>
-                  <a href="mailto:lee@bluehawana.com" className="text-gray-600 hover:text-primary transition">
-                    lee@bluehawana.com
+                  <a href="mailto:info@hongyanab.com" className="text-gray-600 hover:text-primary transition">
+                    info@hongyanab.com
                   </a>
                 </div>
               </div>
@@ -92,7 +92,7 @@ export default function Contact() {
               <h4 className="font-semibold text-secondary mb-4">Follow Us</h4>
               <div className="flex gap-4">
                 <a
-                  href="https://www.linkedin.com/in/hzl"
+                  href="https://www.linkedin.com/company/71856746"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-white p-3 rounded-lg shadow-sm hover:shadow-md transition hover:-translate-y-1"

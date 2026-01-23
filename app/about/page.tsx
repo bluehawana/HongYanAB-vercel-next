@@ -5,7 +5,7 @@ import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
   title: 'About Us - Hong Yan AB | Our Story & Team',
-  description: 'Learn about Hong Yan AB, a Swedish IT consulting company founded by Hongzhi Li. Discover our story, values, and expertise in full-stack development.',
+  description: 'Learn about Hong Yan AB, a Swedish IT consulting company founded by Hongzhi Li and Yan Liu in May 2017. Discover our story, values, and expertise in full-stack development.',
 }
 
 const timeline = [
@@ -22,7 +22,7 @@ const timeline = [
   {
     year: '2023',
     title: 'Hong Yan AB Founded',
-    description: 'Established Hong Yan AB in Gothenburg, Sweden to provide professional IT consulting services to businesses across Europe.',
+    description: 'Hong Yan AB was founded by Hongzhi Li and Yan Liu in May 2017 in Gothenburg, Sweden, establishing our presence in the IT consulting industry.',
   },
   {
     year: '2024',
@@ -192,7 +192,7 @@ export default function AboutPage() {
 
               <div className="flex gap-4">
                 <a
-                  href="https://www.linkedin.com/in/hzl"
+                  href="https://www.linkedin.com/company/71856746"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-[#0077b5] text-white px-4 py-2 rounded-lg font-medium hover:bg-[#006399] transition flex items-center gap-2"

@@ -6,7 +6,7 @@ A modern, professional company website for Hong Yan AB - a Swedish IT consulting
 
 ## About Hong Yan AB
 
-Hong Yan AB is founded by Hongzhi (Harvad) Li, a seasoned Full-Stack Developer with over 5 years of professional experience. We provide:
+Hong Yan AB is founded by Hongzhi Li and Yan Liu in May 2017, a seasoned team with over 5 years of professional experience. We provide:
 
 - **Full-Stack Development** - Java Spring Boot, React, Next.js, TypeScript
 - **Cloud Architecture** - AWS, Docker, Kubernetes, CI/CD
@@ -99,10 +99,10 @@ vercel --prod
 
 ## Contact
 
-- **Email:** [lee@bluehawana.com](mailto:lee@bluehawana.com)
+- **Email:** [info@hongyanab.com](mailto:info@hongyanab.com)
 - **Phone:** +46 72 838 42 99
 - **Location:** Gothenburg, Sweden
-- **LinkedIn:** [linkedin.com/in/hzl](https://www.linkedin.com/in/hzl)
+- **LinkedIn:** [linkedin.com/company/hong-yan-ab](https://www.linkedin.com/company/71856746)
 - **GitHub:** [github.com/bluehawana](https://github.com/bluehawana)
 
 ## License

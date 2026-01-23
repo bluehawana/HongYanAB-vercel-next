@@ -9,8 +9,8 @@ export default function About() {
               About Hong Yan AB
             </h2>
             <p className="text-gray-600 mb-4">
-              Hong Yan AB is a Swedish IT consulting company founded by Hongzhi (Harvad) Li,
-              a seasoned Full-Stack Developer with over 5 years of professional experience
+              Hong Yan AB is a Swedish IT consulting company founded by Hongzhi Li and Yan Liu
+              in May 2017. We are a seasoned team with over 5 years of professional experience
               specializing in enterprise-grade solutions.
             </p>
             <p className="text-gray-600 mb-4">
