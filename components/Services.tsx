@@ -3,28 +3,24 @@ const services = [
     title: 'Full-Stack Development',
     description: 'End-to-end web application development using Java Spring Boot, React, Next.js, and TypeScript for scalable enterprise solutions.',
     icon: '💻',
-    image: '/images/services/coding.jpg',
     technologies: ['Java Spring Boot', 'React', 'Next.js', 'TypeScript'],
   },
   {
     title: 'Cloud Architecture',
     description: 'Design and implementation of cloud infrastructure on AWS with Docker, Kubernetes, and modern DevOps practices.',
     icon: '☁️',
-    image: '/images/services/cloud-infrastructure.jpg',
     technologies: ['AWS', 'Docker', 'Kubernetes', 'CI/CD'],
   },
   {
     title: 'Hardware & Infrastructure',
     description: 'Server installation, debugging, and maintenance. Specialized in Dell servers and HPC center deployments.',
     icon: '🖥️',
-    image: '/images/services/server-hardware.jpg',
     technologies: ['Dell Servers', 'HPC Centers', 'Hardware Debugging', 'System Integration'],
   },
   {
     title: 'Database Solutions',
     description: 'Database design, optimization, and management with PostgreSQL, MongoDB, and RESTful API development.',
     icon: '🗄️',
-    image: '/images/services/database.jpg',
     technologies: ['PostgreSQL', 'MongoDB', 'RESTful APIs', 'Microservices'],
   },
 ]
@@ -50,18 +46,8 @@ export default function Services() {
               key={index}
               className="bg-white hover:shadow-lg transition-all duration-300 group border-l-4 border-transparent hover:border-primary overflow-hidden"
             >
-              {/* Image placeholder - will show your real photos once uploaded */}
-              <div className="h-48 bg-gray-200 overflow-hidden">
-                <img 
-                  src={service.image} 
-                  alt={service.title}
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                  onError={(e) => {
-                    // Fallback if image doesn't exist yet
-                    e.currentTarget.style.display = 'none';
-                    e.currentTarget.parentElement!.innerHTML = `<div class="w-full h-full flex items-center justify-center text-6xl">${service.icon}</div>`;
-                  }}
-                />
+              <div className="h-48 bg-gray-100 flex items-center justify-center text-6xl">
+                {service.icon}
               </div>
               <div className="p-8">
                 <h3 className="text-xl font-semibold mb-4 text-secondary">
