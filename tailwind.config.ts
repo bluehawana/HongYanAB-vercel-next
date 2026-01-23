@@ -10,14 +10,14 @@ const config: Config = {
     extend: {
       colors: {
         primary: {
-          DEFAULT: '#dc2626', // Red color for Hong Yan (Red Swallow)
-          light: '#ef4444',
-          dark: '#991b1b',
+          DEFAULT: '#8B1A1A', // Dark red matching Ichiban Sushi menu
+          light: '#A52A2A',
+          dark: '#6B0F0F',
         },
         secondary: {
-          DEFAULT: '#1e293b',
-          light: '#334155',
-          dark: '#0f172a',
+          DEFAULT: '#1a1a1a',
+          light: '#2d2d2d',
+          dark: '#000000',
         },
       },
     },
