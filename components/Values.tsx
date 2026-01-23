@@ -3,23 +3,20 @@ export default function Values() {
     {
       title: 'Sustainable Technology',
       description: 'We prioritize energy-efficient solutions and green cloud infrastructure, reducing environmental impact while maintaining performance.',
-      image: 'https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=800&q=80',
-      // Nordic forest/nature representing sustainability
-      icon: '🌲',
+      image: 'https://images.unsplash.com/photo-1466611653911-95081537e5b7?w=800&q=80',
+      // Wind turbines - renewable energy
     },
     {
       title: 'Nordic Quality',
       description: 'Embracing Swedish values of transparency, reliability, and excellence in every project we deliver.',
-      image: 'https://images.unsplash.com/photo-1509023464722-18d996393ca8?w=800&q=80',
-      // Minimalist Nordic design
-      icon: '⚡',
+      image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&q=80',
+      // Modern architecture/building
     },
     {
       title: 'Long-term Partnership',
       description: 'Building lasting relationships with our clients through honest communication and consistent delivery.',
-      image: 'https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=800&q=80',
-      // Handshake/collaboration
-      icon: '🤝',
+      image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&q=80',
+      // Team collaboration
     },
   ]
 
@@ -51,9 +48,6 @@ export default function Values() {
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
-                <div className="absolute bottom-4 left-4 text-white text-4xl">
-                  {value.icon}
-                </div>
               </div>
               <h3 className="text-xl font-semibold text-secondary mb-3">
                 {value.title}

@@ -10,9 +10,9 @@ const config: Config = {
     extend: {
       colors: {
         primary: {
-          DEFAULT: '#8B1A1A', // Dark red accent
-          light: '#A52A2A',
-          dark: '#6B0F0F',
+          DEFAULT: '#0066CC', // Professional blue
+          light: '#3399FF',
+          dark: '#004C99',
         },
         secondary: {
           DEFAULT: '#2C3E50', // Professional dark blue-gray
@@ -20,7 +20,7 @@ const config: Config = {
           dark: '#1A252F',
         },
         accent: {
-          DEFAULT: '#C8E6C9', // Subtle green accent like AFRY
+          DEFAULT: '#C8E6C9', // Subtle green accent
           light: '#E8F5E9',
           dark: '#A5D6A7',
         },
