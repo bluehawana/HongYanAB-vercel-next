@@ -19,7 +19,7 @@ export default function Header() {
   ]
 
   return (
-    <header className="fixed top-0 w-full bg-white/95 backdrop-blur-sm shadow-md z-50">
+    <header className="fixed top-0 w-full bg-white shadow-sm z-50 border-b border-gray-100">
       <nav className="container mx-auto px-4 py-4">
         <div className="flex justify-between items-center">
           <div className="flex items-center">
@@ -34,7 +34,7 @@ export default function Header() {
               <Link
                 key={link.label}
                 href={link.href}
-                className={`text-gray-700 hover:text-primary transition ${
+                className={`text-gray-700 hover:text-primary transition font-medium ${
                   pathname === link.href ? 'text-primary font-semibold' : ''
                 }`}
               >
@@ -43,7 +43,7 @@ export default function Header() {
             ))}
             <a
               href="/#contact"
-              className="bg-primary text-white px-4 py-2 rounded-lg font-medium hover:bg-primary-dark transition"
+              className="bg-primary text-white px-6 py-2 rounded-lg font-medium hover:bg-primary-dark transition shadow-md"
             >
               Get Started
             </a>
