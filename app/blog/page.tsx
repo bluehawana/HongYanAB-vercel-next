@@ -2,6 +2,7 @@ import { Metadata } from 'next'
 import Link from 'next/link'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
+import { ReactNode } from 'react'
 
 export const metadata: Metadata = {
   title: 'Blog - Hong Yan AB | Tech Insights & Development Tips',
@@ -16,7 +17,7 @@ const blogPosts = [
     category: 'Frontend',
     date: '2026-01-20',
     readTime: '8 min read',
-    image: '⚛️',
+    icon: 'react',
   },
   {
     slug: 'spring-boot-microservices',
@@ -25,7 +26,7 @@ const blogPosts = [
     category: 'Backend',
     date: '2026-01-15',
     readTime: '12 min read',
-    image: '☕',
+    icon: 'code',
   },
   {
     slug: 'aws-cost-optimization',
@@ -34,7 +35,7 @@ const blogPosts = [
     category: 'Cloud',
     date: '2026-01-10',
     readTime: '10 min read',
-    image: '☁️',
+    icon: 'cloud',
   },
   {
     slug: 'typescript-best-practices',
@@ -43,7 +44,7 @@ const blogPosts = [
     category: 'Frontend',
     date: '2026-01-05',
     readTime: '15 min read',
-    image: '📘',
+    icon: 'document',
   },
   {
     slug: 'docker-kubernetes-guide',
@@ -52,7 +53,7 @@ const blogPosts = [
     category: 'DevOps',
     date: '2025-12-28',
     readTime: '20 min read',
-    image: '🐳',
+    icon: 'cube',
   },
   {
     slug: 'postgresql-performance',
@@ -61,9 +62,44 @@ const blogPosts = [
     category: 'Database',
     date: '2025-12-20',
     readTime: '14 min read',
-    image: '🗄️',
+    icon: 'database',
   },
 ]
+
+const icons: Record<string, ReactNode> = {
+  react: (
+    <svg className="w-12 h-12 text-secondary" fill="currentColor" viewBox="0 0 20 20">
+      <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clipRule="evenodd"/>
+    </svg>
+  ),
+  code: (
+    <svg className="w-12 h-12 text-secondary" fill="currentColor" viewBox="0 0 20 20">
+      <path fillRule="evenodd" d="M12.316 3.051a1 1 0 01.633 1.265l-4 12a1 1 0 11-1.898-.632l4-12a1 1 0 011.265-.633zM5.707 6.293a1 1 0 010 1.414L3.414 10l2.293 2.293a1 1 0 11-1.414 1.414l-3-3a1 1 0 010-1.414l3-3a1 1 0 011.414 0zm8.586 0a1 1 0 011.414 0l3 3a1 1 0 010 1.414l-3 3a1 1 0 11-1.414-1.414L16.586 10l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd"/>
+    </svg>
+  ),
+  cloud: (
+    <svg className="w-12 h-12 text-secondary" fill="currentColor" viewBox="0 0 20 20">
+      <path d="M5.5 16a3.5 3.5 0 01-.369-6.98 4 4 0 117.753-1.977A4.5 4.5 0 1113.5 16h-8z"/>
+    </svg>
+  ),
+  document: (
+    <svg className="w-12 h-12 text-secondary" fill="currentColor" viewBox="0 0 20 20">
+      <path fillRule="evenodd" d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4zm2 6a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm1 3a1 1 0 100 2h6a1 1 0 100-2H7z" clipRule="evenodd"/>
+    </svg>
+  ),
+  cube: (
+    <svg className="w-12 h-12 text-secondary" fill="currentColor" viewBox="0 0 20 20">
+      <path d="M11 17a1 1 0 001.447.894l4-2A1 1 0 0017 15V9.236a1 1 0 00-1.447-.894l-4 2a1 1 0 00-.553.894V17zM15.211 6.276a1 1 0 000-1.788l-4.764-2.382a1 1 0 00-.894 0L4.789 4.488a1 1 0 000 1.788l4.764 2.382a1 1 0 00.894 0l4.764-2.382zM4.447 8.342A1 1 0 003 9.236V15a1 1 0 00.553.894l4 2A1 1 0 009 17v-5.764a1 1 0 00-.553-.894l-4-2z"/>
+    </svg>
+  ),
+  database: (
+    <svg className="w-12 h-12 text-secondary" fill="currentColor" viewBox="0 0 20 20">
+      <path d="M3 12v3c0 1.657 3.134 3 7 3s7-1.343 7-3v-3c0 1.657-3.134 3-7 3s-7-1.343-7-3z"/>
+      <path d="M3 7v3c0 1.657 3.134 3 7 3s7-1.343 7-3V7c0 1.657-3.134 3-7 3S3 8.657 3 7z"/>
+      <path d="M17 5c0 1.657-3.134 3-7 3S3 6.657 3 5s3.134-3 7-3 7 1.343 7 3z"/>
+    </svg>
+  ),
+}
 
 const categories = ['All', 'Frontend', 'Backend', 'Cloud', 'DevOps', 'Database']
 
@@ -115,8 +151,8 @@ export default function BlogPage() {
                 key={index}
                 className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition group"
               >
-                <div className="bg-gradient-to-br from-gray-100 to-gray-200 p-8 text-center">
-                  <span className="text-5xl">{post.image}</span>
+                <div className="bg-gradient-to-br from-gray-100 to-gray-200 p-8 flex items-center justify-center">
+                  {icons[post.icon]}
                 </div>
                 <div className="p-6">
                   <div className="flex items-center gap-4 mb-3">
@@ -143,9 +179,12 @@ export default function BlogPage() {
                     </span>
                     <Link
                       href={`/blog/${post.slug}`}
-                      className="text-primary text-sm font-semibold hover:underline"
+                      className="text-primary text-sm font-semibold inline-flex items-center hover:underline"
                     >
-                      Read More →
+                      Read More
+                      <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                      </svg>
                     </Link>
                   </div>
                 </div>

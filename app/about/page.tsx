@@ -192,7 +192,7 @@ export default function AboutPage() {
 
               <div className="flex gap-4">
                 <a
-                  href="https://www.linkedin.com/company/71856746"
+                  href="https://www.linkedin.com/company/hongyanab"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-[#0077b5] text-white px-4 py-2 rounded-lg font-medium hover:bg-[#006399] transition flex items-center gap-2"

@@ -92,7 +92,7 @@ export default function Contact() {
               <h4 className="font-semibold text-secondary mb-4">Follow Us</h4>
               <div className="flex gap-4">
                 <a
-                  href="https://www.linkedin.com/company/71856746"
+                  href="https://www.linkedin.com/company/hongyanab"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-white p-3 rounded-lg shadow-sm hover:shadow-md transition hover:-translate-y-1"

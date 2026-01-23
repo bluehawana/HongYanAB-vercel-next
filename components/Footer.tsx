@@ -13,7 +13,10 @@ export default function Footer() {
               serving clients across Sweden and Europe.
             </p>
             <div className="flex items-center gap-2 text-gray-300">
-              <span>🇸🇪</span>
+              <svg className="w-5 h-4" viewBox="0 0 640 480">
+                <path fill="#006aa7" d="M0 0h640v480H0z"/>
+                <path fill="#fecc00" d="M176 0v192H0v96h176v192h64V288h400v-96H240V0h-64z"/>
+              </svg>
               <span>Gothenburg, Sweden</span>
             </div>
           </div>
@@ -65,7 +68,7 @@ export default function Footer() {
             </p>
             <div className="flex items-center gap-6">
               <a
-                href="https://www.linkedin.com/company/71856746"
+                href="https://www.linkedin.com/company/hongyanab"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-300 hover:text-white transition"

@@ -102,7 +102,7 @@ vercel --prod
 - **Email:** [info@hongyanab.com](mailto:info@hongyanab.com)
 - **Phone:** +46 72 838 42 99
 - **Location:** Gothenburg, Sweden
-- **LinkedIn:** [linkedin.com/company/hong-yan-ab](https://www.linkedin.com/company/71856746)
+- **LinkedIn:** [linkedin.com/company/hongyanab](https://www.linkedin.com/company/hongyanab)
 - **GitHub:** [github.com/bluehawana](https://github.com/bluehawana)
 
 ## License

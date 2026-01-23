@@ -7,6 +7,7 @@ import Hardware from '@/components/Hardware'
 import About from '@/components/About'
 import Contact from '@/components/Contact'
 import Footer from '@/components/Footer'
+import Achievements from '@/components/Achievements'
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Header />
       <Hero />
       <Services />
+      <Achievements />
       <RealWork />
       <Values />
       <Hardware />
