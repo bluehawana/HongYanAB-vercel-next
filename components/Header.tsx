@@ -19,11 +19,11 @@ export default function Header() {
   ]
 
   return (
-    <header className="fixed top-0 w-full bg-white shadow-sm z-50 border-b border-gray-100">
-      <nav className="container mx-auto px-4 py-4">
+    <header className="fixed top-0 w-full bg-white z-50 border-b border-gray-100">
+      <nav className="container mx-auto px-6 lg:px-12 py-5">
         <div className="flex justify-between items-center">
           <div className="flex items-center">
-            <Link href="/" className="text-2xl font-bold text-primary">
+            <Link href="/" className="text-xl font-semibold text-secondary tracking-tight">
               Hong Yan AB
             </Link>
           </div>
@@ -34,8 +34,8 @@ export default function Header() {
               <Link
                 key={link.label}
                 href={link.href}
-                className={`text-gray-700 hover:text-primary transition font-medium ${
-                  pathname === link.href ? 'text-primary font-semibold' : ''
+                className={`text-sm text-gray-600 hover:text-secondary transition-colors font-medium ${
+                  pathname === link.href ? 'text-secondary' : ''
                 }`}
               >
                 {link.label}
@@ -43,7 +43,7 @@ export default function Header() {
             ))}
             <a
               href="/#contact"
-              className="bg-primary text-white px-6 py-2 rounded-lg font-medium hover:bg-primary-dark transition shadow-md"
+              className="bg-secondary text-white px-6 py-2.5 text-sm font-medium hover:bg-secondary-light transition-all duration-300"
             >
               Get Started
             </a>
