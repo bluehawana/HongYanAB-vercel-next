@@ -4,7 +4,7 @@ const services = [
   {
     title: 'Full-Stack Development',
     description: 'End-to-end web application development using Java Spring Boot, React, Next.js, and TypeScript for scalable enterprise solutions.',
-    image: '/images/services/fullstack-workspace.jpg',
+    image: '/images/services/fullstack-coding.jpg',
     technologies: ['Java Spring Boot', 'React', 'Next.js', 'TypeScript'],
   },
   {
@@ -64,7 +64,7 @@ export default function Services() {
               }`}
             >
               {/* Image - Portrait friendly */}
-              <div className="relative w-full md:w-1/3 h-64 md:h-auto md:min-h-[300px]">
+              <div className="relative w-full md:w-2/5 h-80 md:h-auto md:min-h-[400px]">
                 <Image
                   src={service.image}
                   alt={service.title}
@@ -74,7 +74,7 @@ export default function Services() {
               </div>
 
               {/* Content */}
-              <div className="flex-1 p-8 flex flex-col justify-center">
+              <div className="w-full md:w-3/5 p-8 flex flex-col justify-center">
                 <h3 className="text-2xl font-semibold mb-4 text-secondary">
                   {service.title}
                 </h3>

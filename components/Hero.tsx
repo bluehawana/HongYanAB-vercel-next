@@ -10,8 +10,8 @@ export default function Hero() {
           <div className="w-full md:w-2/5 relative">
             <div className="relative h-[500px] md:h-[600px] rounded-2xl overflow-hidden shadow-2xl">
               <Image
-                src="/images/team/gokart-victory.jpg"
-                alt="Hong Yan AB Team"
+                src="/images/services/hpc-dell-server.jpg"
+                alt="Hong Yan AB - Dell HPC Servers"
                 fill
                 className="object-cover object-[center_65%]"
                 priority
