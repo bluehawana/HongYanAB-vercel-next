@@ -16,19 +16,19 @@ const services = [
   {
     title: 'Hardware & Infrastructure',
     description: 'Server installation, debugging, and maintenance. Specialized in Dell servers and HPC center deployments. Recently achieved record-breaking 7.78-minute Android 15 AOSP build times on bare-metal hardware.',
-    image: '/images/services/hardware-setup.jpg',
+    image: '/images/services/hardware-datacenter.jpg',
     technologies: ['Dell Servers', 'HPC Centers', 'Hardware Debugging', 'System Integration'],
   },
   {
     title: 'Database Solutions',
     description: 'Database design, optimization, and management with PostgreSQL, MongoDB, and RESTful API development.',
-    image: '/images/services/database-servers.jpg',
+    image: '/images/services/database-analytics.jpg',
     technologies: ['PostgreSQL', 'MongoDB', 'RESTful APIs', 'Microservices'],
   },
   {
     title: 'HPC Bare Metal Tuning',
     description: 'High-performance computing optimization on bare metal servers. Specialized in Linux kernel tuning, BIOS configuration, and maximizing computational throughput for demanding workloads.',
-    image: '/images/services/hpc-dell-server.jpg',
+    image: '/images/services/hpc-circuit.jpg',
     technologies: ['HPC', 'Bare Metal', 'Linux Tuning', 'BIOS Optimization'],
   },
   {

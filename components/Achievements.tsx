@@ -136,12 +136,12 @@ export default function Achievements() {
           <h3 className="text-2xl font-semibold text-center mb-8">Work Hard, Play Hard</h3>
           <div className="bg-white/10 backdrop-blur-sm rounded-2xl overflow-hidden border border-white/20">
             <div className="grid md:grid-cols-2 gap-0">
-              <div className="relative h-[500px] md:h-[450px]">
+              <div className="relative h-[600px] md:h-[600px]">
                 <Image
                   src="/images/team/gokart-victory.jpg"
                   alt="Hong Yan AB team go-kart victory"
                   fill
-                  className="object-cover object-[center_70%]"
+                  className="object-cover object-top"
                 />
               </div>
               <div className="p-8 flex flex-col justify-center">
