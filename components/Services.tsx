@@ -22,7 +22,7 @@ const services = [
   {
     title: 'Database Solutions',
     description: 'Database design, optimization, and management with PostgreSQL, MongoDB, and RESTful API development.',
-    image: '/images/services/database-analytics.jpg',
+    image: '/images/services/databasesolutions.webp',
     technologies: ['PostgreSQL', 'MongoDB', 'RESTful APIs', 'Microservices'],
   },
   {
