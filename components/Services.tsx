@@ -9,9 +9,9 @@ const services = [
   },
   {
     title: 'Cloud Architecture',
-    description: 'Design and implementation of cloud infrastructure on AWS with Docker, Kubernetes, and modern DevOps practices.',
+    description: 'Design and implementation of cloud infrastructure across major cloud platforms with Docker, Kubernetes, and modern DevOps practices.',
     image: '/images/services/cloud-providers.png',
-    technologies: ['AWS', 'Docker', 'Kubernetes', 'CI/CD'],
+    technologies: ['AWS', 'Azure', 'Google Cloud', 'Alibaba Cloud'],
   },
   {
     title: 'Hardware & Infrastructure',
