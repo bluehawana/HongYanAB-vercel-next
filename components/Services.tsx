@@ -22,13 +22,13 @@ const services = [
   {
     title: 'Database Solutions',
     description: 'Database design, optimization, and management with PostgreSQL, MongoDB, and RESTful API development.',
-    image: '/images/services/databasesolutions.webp',
+    image: '/images/services/db-solutions.png',
     technologies: ['PostgreSQL', 'MongoDB', 'RESTful APIs', 'Microservices'],
   },
   {
     title: 'HPC Bare Metal Tuning',
     description: 'High-performance computing optimization on bare metal servers. Specialized in Linux kernel tuning, BIOS configuration, and maximizing computational throughput for demanding workloads.',
-    image: '/images/services/hpc-circuit.jpg',
+    image: '/images/services/hpc-tunning.png',
     technologies: ['HPC', 'Bare Metal', 'Linux Tuning', 'BIOS Optimization'],
   },
   {
