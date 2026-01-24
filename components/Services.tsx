@@ -10,7 +10,7 @@ const services = [
   {
     title: 'Cloud Architecture',
     description: 'Design and implementation of cloud infrastructure on AWS with Docker, Kubernetes, and modern DevOps practices.',
-    image: '/images/services/cloud-servers.jpg',
+    image: '/images/services/cloud-providers.png',
     technologies: ['AWS', 'Docker', 'Kubernetes', 'CI/CD'],
   },
   {
