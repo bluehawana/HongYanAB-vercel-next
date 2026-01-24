@@ -3,12 +3,12 @@ export default function RealWork() {
     {
       title: 'Enterprise Server Installation',
       description: 'Dell PowerEdge server deployment and configuration for HPC centers',
-      image: '/images/hardware/IMG_5290.jpg',
+      image: '/images/hardware/IMG_5292.jpg',
     },
     {
       title: 'Hardware Maintenance',
       description: 'Server debugging and motherboard replacement services',
-      image: '/images/hardware/IMG_5292.jpg',
+      image: '/images/hardware/IMG_5290_rotated.jpg',
     },
     {
       title: 'Infrastructure Setup',
