@@ -34,9 +34,9 @@ const services = [
   },
   {
     title: 'Android Automotive Development',
-    description: 'Native Android application development for automotive solutions using Kotlin. Our apps run smoothly on Polestar 4 emulator and other AAOS platforms for in-car entertainment.',
+    description: 'Native Android application development for automotive solutions using Kotlin. Our apps run smoothly on Polestar 4 emulator and other AAOS platforms. Experienced with Qualcomm Snapdragon Cockpit platforms including Gecko, Chameleon, and Tegu.',
     image: '/images/services/android-polestar-collage.jpg',
-    technologies: ['Android Auto', 'AOSP', 'NONHLOS', 'QNX', 'Kotlin'],
+    technologies: ['Android Auto', 'AOSP', 'QNX', 'Kotlin', 'Gecko', 'Chameleon', 'Tegu'],
     objectFit: 'contain' as const,
   },
 ]
