@@ -34,7 +34,7 @@ const services = [
   {
     title: 'Android Automotive Development',
     description: 'Native Android application development for automotive and smart home solutions using Kotlin. Building intuitive interfaces for in-car entertainment and IoT device control.',
-    image: '/images/services/android-headunit.jpg',
+    image: '/images/services/android-collage.jpg',
     technologies: ['Kotlin', 'Android Auto', 'AAOS', 'Jetpack Compose'],
   },
 ]
