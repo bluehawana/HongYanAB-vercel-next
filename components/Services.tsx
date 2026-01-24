@@ -28,7 +28,7 @@ const services = [
   {
     title: 'HPC Bare Metal Tuning',
     description: 'High-performance computing optimization on bare metal servers. Specialized in Linux kernel tuning, BIOS configuration, and maximizing computational throughput for demanding workloads.',
-    image: '/images/services/hpc-tunning.png',
+    image: '/images/services/hpc-dell-servers.jpg',
     technologies: ['HPC', 'Bare Metal', 'Linux Tuning', 'BIOS Optimization'],
   },
   {
