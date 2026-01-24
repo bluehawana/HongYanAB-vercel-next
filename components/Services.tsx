@@ -12,6 +12,7 @@ const services = [
     description: 'Design and implementation of cloud infrastructure across major cloud platforms with Docker, Kubernetes, and modern DevOps practices.',
     image: '/images/services/cloud-providers.png',
     technologies: ['AWS', 'Azure', 'Google Cloud', 'Alibaba Cloud'],
+    objectFit: 'contain' as const,
   },
   {
     title: 'Hardware & Infrastructure',
@@ -64,12 +65,12 @@ export default function Services() {
               }`}
             >
               {/* Image - Portrait friendly */}
-              <div className="relative w-full md:w-2/5 h-80 md:h-auto md:min-h-[400px]">
+              <div className="relative w-full md:w-2/5 h-80 md:h-auto md:min-h-[400px] bg-gray-100">
                 <Image
                   src={service.image}
                   alt={service.title}
                   fill
-                  className="object-cover"
+                  className={service.objectFit === 'contain' ? 'object-contain' : 'object-cover'}
                 />
               </div>
 
