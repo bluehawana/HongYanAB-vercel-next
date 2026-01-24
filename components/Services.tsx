@@ -10,13 +10,13 @@ const services = [
   {
     title: 'Cloud Architecture',
     description: 'Design and implementation of cloud infrastructure on AWS with Docker, Kubernetes, and modern DevOps practices.',
-    image: '/images/services/cloud-datacenter.jpg',
+    image: '/images/services/cloud-servers.jpg',
     technologies: ['AWS', 'Docker', 'Kubernetes', 'CI/CD'],
   },
   {
     title: 'Hardware & Infrastructure',
     description: 'Server installation, debugging, and maintenance. Specialized in Dell servers and HPC center deployments. Recently achieved record-breaking 7.78-minute Android 15 AOSP build times on bare-metal hardware.',
-    image: '/images/services/hardware-datacenter.jpg',
+    image: '/images/services/hardware-motherboard.jpg',
     technologies: ['Dell Servers', 'HPC Centers', 'Hardware Debugging', 'System Integration'],
   },
   {
