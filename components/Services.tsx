@@ -36,7 +36,8 @@ const services = [
     title: 'Android Automotive Development',
     description: 'Native Android application development for automotive solutions using Kotlin. Our apps run smoothly on Polestar 4 emulator and other AAOS platforms for in-car entertainment.',
     image: '/images/services/android-polestar-collage.jpg',
-    technologies: ['Kotlin', 'Android Auto', 'AAOS', 'Jetpack Compose'],
+    technologies: ['Kotlin', 'Android Auto', 'AOSP', 'NONHLOS', 'QNX'],
+    objectFit: 'contain' as const,
   },
 ]
 
